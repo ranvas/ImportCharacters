@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="KogdaIgra\**" />
+    <EmbeddedResource Remove="KogdaIgra\**" />
+    <None Remove="KogdaIgra\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="1.0.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.52" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\sga\Excel\CommonExcel\CommonExcel.csproj" />
+    <ProjectReference Include="..\..\sga\Html\HtmlParser\HtmlParser.csproj" />
+  </ItemGroup>
+
+</Project>

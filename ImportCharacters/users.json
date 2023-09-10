@@ -1,0 +1,52 @@
+{
+  "masterPassword": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+  "timestamp": 1692037041983,
+  "characters": [
+    {
+      "name": "test2",
+      "id": 1,
+      "mainContainer": 2319847764
+    },
+    {
+      "name": "test3",
+      "id": 2,
+      "mainContainer": 2319272092
+    },
+    {
+      "name": "test4",
+      "id": 3,
+      "mainContainer": 2319412611
+    },
+    {
+      "name": "test5",
+      "id": 4,
+      "mainContainer": 2319449750
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "test2",
+      "nickname": "test2",
+      "characters": [ 1 ],
+      "activeCharacter": 1,
+      "password": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+    },
+    {
+      "id": 2,
+      "name": "test3",
+      "nickname": "test3",
+      "characters": [ 2 ],
+      "activeCharacter": 2,
+      "password": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+    },
+    {
+      "id": 3,
+      "name": "test3",
+      "nickname": "test3",
+      "characters": [ 3 ],
+      "activeCharacter": 3,
+      "password": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+    }
+  ]
+}
